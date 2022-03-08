@@ -250,17 +250,11 @@ body{
         }
 
     .contact-media{
-        width: 75px;
-        height: 75px;
         border-radius: 50%;
         background-color: #fff;
         margin-left: 1rem;
+        padding: 10px;
         box-shadow: 5px 10px rgba(0,0,0, 0.1);
-
-        .contact-media-item{
-            margin-top: 22px;
-            margin-left: 22px;
-        }
     }
     
 }
