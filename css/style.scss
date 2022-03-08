@@ -1,0 +1,231 @@
+@font-face {
+    font-family: praise;
+    src: url('/fonts/Praise-Regular.ttf');
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #eaeaea;
+}
+
+.navbar{
+    background-color: rgba(234,234,234, 0.7);
+
+    .navbar-brand{
+        font-family: praise;
+        font-size: 50px;
+    }
+
+    .nav-link{
+        font-size: 20px;
+        margin-left: 30px;
+
+        &:hover{
+            color: #FFFF00;
+        }
+    }
+
+}
+
+.sectionImage{
+    width: 100%;
+}
+
+#home{
+    padding-top: 6rem;
+
+    .btn-contactUs{
+        &:hover{
+        background-color: #0045ac;
+        }
+    }
+}
+
+.titleUnderline{
+    width: 80%;
+}
+
+#about{
+    .titleUnderline{
+    border-bottom: 3px solid #FFF;
+    }
+}
+
+#resume{
+
+
+        .titleUnderline{
+            border-bottom: 3px solid #0d6efd;
+        }
+
+    table{
+        border: transparent;
+    }
+    
+}
+
+.sectionSubTitle{
+    color: #ffc107;
+    text-decoration: underline;
+}
+
+#skill{
+
+    .titleUnderline{
+        border-bottom: 3px solid #FFF;
+    }
+
+    .skill-bar{
+        width: 100%;
+        background-color: #B1B1B1;
+        height: 60px;
+        border-radius: 40px;
+        margin-top: 1rem;
+
+        .skill-image{
+            width: 36px;
+            height: 36px;
+            margin: 10px 0px 0px 20px;
+        }
+
+        .skill-java{
+            background-color: #ffc107;
+            height: 100%;
+            width: 60%;
+            border-radius: 40px;
+            animation: java 3s;
+        }
+        
+        .skill-python{
+            background-color: #ffc107;
+            height: 100%;
+            width: 40%;
+            border-radius: 40px;
+            animation: python 3s;
+        }
+        
+        .skill-js{
+            background-color: #ffc107;
+            height: 100%;
+            width: 50%;
+            border-radius: 40px;
+            animation: js 3s;
+        }
+        
+        .skill-php{
+            background-color: #ffc107;
+            height: 100%;
+            width: 80%;
+            border-radius: 40px;
+            animation: php 3s;
+        }
+        
+        .skill-sql{
+            background-color: #ffc107;
+            height: 100%;
+            width: 70%;
+            border-radius: 40px;
+            animation: sql 3s;
+        }
+        
+        .skill-html{
+            background-color: #ffc107;
+            height: 100%;
+            width: 80%;
+            border-radius: 40px;
+            animation: html 3s;
+        }
+        
+        .skill-css{
+            background-color: #ffc107;
+            height: 100%;
+            width: 65%;
+            border-radius: 40px;
+            animation: css 3s;
+        }
+    }
+}
+
+@keyframes java {
+    from{
+        width: 0;
+    }
+    to{
+        width: 60%;
+    }
+}
+
+@keyframes python {
+    from{
+        width: 0;
+    }
+    to{
+        width: 40%;
+    }
+}
+
+@keyframes js {
+    from{
+        width: 0;
+    }
+    to{
+        width: 50%;
+    }
+}
+
+@keyframes php {
+    from{
+        width: 0;
+    }
+    to{
+        width: 80%;
+    }
+}
+
+@keyframes sql {
+    from{
+        width: 0;
+    }
+    to{
+        width: 70%;
+    }
+}
+
+@keyframes html {
+    from{
+        width: 0;
+    }
+    to{
+        width: 80%;
+    }
+}
+
+@keyframes css {
+    from{
+        width: 0;
+    }
+    to{
+        width: 65%;
+    }
+}
+
+#contact{
+        .titleUnderline{
+            border-bottom: 3px solid #0d6efd;
+        }
+
+    .contact-media{
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        background-color: #fff;
+        margin-left: 1rem;
+        box-shadow: 5px 10px rgba(0,0,0, 0.1);
+
+        .contact-media-item{
+            margin-top: 22px;
+            margin-left: 22px;
+        }
+    }
+    
+}
